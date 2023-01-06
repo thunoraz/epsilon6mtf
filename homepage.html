@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="stylesheet.css">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <section>
+        <div class="vertical-align">
+            <p style="font-size:55px; font-weight: bold;color: white;">SCiPNET LOGIN</p>
+            <div class="input-container">
+                <input class="input-field" type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-container">
+                <input class="input-field" type="password" id="heslo" name="heslo" placeholder="Password">
+            </div>
+            <button id="ok" class="btn btn-success" style="transform: translate(50%);">OK</button>
+        </div>
+    
+        <script>
+            var pass1 = "epsilon";
+            var ok = document.getElementById("ok");
+            ok.addEventListener('click', ()=> {
+            var pass = document.getElementById("heslo");
+            if(pass.value === pass1) {
+                window.location.href = '/access_granted.html';
+            }
+            else window.location.href = '/error_page.html';
+            })
+        </script>
+    </section>
+</body>
+
+<footer>
+
+</footer>
