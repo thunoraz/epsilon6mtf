@@ -80,3 +80,7 @@ p {
     font-family: Helvetica;
     margin-bottom: 5%;
 }
+.warning {
+    transform: translate(0%, 210%);
+    text-align: center;
+}
