@@ -1,0 +1,25 @@
+body {
+    background-color: #8a1f1f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-position: center;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+.vertical-align {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -80%);
+}
+
+img {
+    margin: auto;
+    display: block;
+}
